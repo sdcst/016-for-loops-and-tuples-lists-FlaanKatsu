@@ -16,5 +16,12 @@ list of numbers
 75
 20
 """
+import math
 
 numList = (25, 8, 10, 11, 33, 30, 51, 75, 63, 14, 20, 99)
+for i in numList:
+    ii = i / 5
+    ia = math.floor(ii)
+    ib = math.ceil(ii)
+    if ia == ib:
+        print(i)

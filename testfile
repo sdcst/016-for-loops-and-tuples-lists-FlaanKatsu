@@ -1,0 +1,6 @@
+fn main() {
+    println!("Hello");
+    println!("i have no idea how to use this language");
+    let ehe = 5 * 5;
+    println!("i think this is how formatted strings work, {0} should be 25", ehe)
+}

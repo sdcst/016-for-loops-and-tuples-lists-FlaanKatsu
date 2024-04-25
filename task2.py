@@ -21,5 +21,16 @@ example:
 Enter a name: Lebron
 That name is on the list
 """
-
+NP = 0
 nameList = ("Lebron","Kobe","Michale","Shaq","Dennis")
+UN = str(input("please enter a name: "))
+for i in nameList:
+    if UN == i:
+        NP = 1
+        NN = i
+if NP == 1:
+    print(f"the name \"{NN}\" is on the list!")
+elif NP == 0:
+    print(f"unfortunately, the name \"{UN}\" is not on the list!")
+
+##there is probably a better way of coding this, but this works
